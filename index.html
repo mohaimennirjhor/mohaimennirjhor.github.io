@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>মোহাইমেন নির্ঝর</title>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600&family=Hind+Siliguri:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans Bengali', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            color: #2c3e50;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 4rem;
+            padding: 3rem 0;
+            border-bottom: 2px solid rgba(44, 62, 80, 0.1);
+        }
+
+        h1 {
+            font-family: 'Atma', cursive;
+            font-size: 3.5rem;
+            font-weight: 600;
+            color: #1a252f;
+            margin-bottom: 1rem;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-family: 'Noto Sans Bengali', cursive;
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: #5d6d7e;
+            font-style: italic;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .poem-section {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 3rem;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .poem-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(31, 38, 135, 0.15);
+        }
+
+        .poem-title {
+            font-family: 'Noto Sans Bengali', cursive;
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .poem-content {
+            font-size: 1.15rem;
+            font-weight: 300;
+            line-height: 2.5;
+            text-align: center;
+            white-space: pre-line;
+            color: #34495e;
+        }
+
+        .poem-date {
+            text-align: center;
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            padding: 2rem;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            .subtitle {
+                font-size: 1.1rem;
+            }
+            .poem-section {
+                padding: 2rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>মোহাইমেন নির্ঝর</h1>
+            <p class="subtitle">প্রতিদ্বন্দ্বী অবশিষ্ট না থাকলে আমি উদ্দেশ্যহীন হয়ে যাই</p>
+        </header>
+
+        <!-- POEM 1 -->
+        <article class="poem-section">
+            <h2 class="poem-title">অজানা শহর</h2>
+            <div class="poem-content">
+একা হাঁটি অজানা শহরে
+পাথরের গায়ে হাত রেখে
+খুঁজি তোমার নামের অক্ষর
+
+রিকশার ঘণ্টা বাজে দূরে
+কুয়াশায় ঢাকা সকালবেলা
+মনে হয় তুমি আসবে এখনই
+            </div>
+            <p class="poem-date">— ফেব্রুয়ারি ২০২৪</p>
+        </article>
+
+        <!-- POEM 2 -->
+        <article class="poem-section">
+            <h2 class="poem-title">বৃষ্টির পর</h2>
+            <div class="poem-content">
+জানালার কাঁচে জলের ফোঁটা
+টুকরো হয়ে যায় আলো
+তোমার কথা মনে পড়ে
+যখনি বৃষ্টি থামে
+            
+মাটিতে পড়ে থাকা
+কাঁচা পাতার গন্ধ
+আমাকে নিয়ে যায়
+অনেক দূরে
+            </div>
+            <p class="poem-date">— জানুয়ারি ২০২৪</p>
+        </article>
+
+        <!-- ADD NEW POEMS BELOW THIS COMMENT -->
+
+        <footer>
+            <p>© মোহাইমেন নির্ঝর</p>
+        </footer>
+    </div>
+</body>
+</html>
